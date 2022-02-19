@@ -1,0 +1,7 @@
+#version: '3'
+services:
+  nginx_webserver:
+    image: nginx:latest
+    container_name: nginxgithub
+    ports:
+     - "8080:80"
